@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 
 const class_schema = Schema({
-  grade: number,
+  grade: Number,
 });
-const Class = new mongoose.model(class_schema, "Class");
+const Class = mongoose.model("Class", class_schema);
 export default Class;

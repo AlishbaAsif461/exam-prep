@@ -1,0 +1,66 @@
+[
+  {
+    "name": "John Smith",
+    "phno": 1234567890,
+    "age": 15,
+    "subjects": ["Mathematics", "Physics", "Chemistry"],
+    "feeStatus": "PAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c3d"
+  },
+  {
+    "name": "Emily Johnson",
+    "phno": 9876543210,
+    "age": 16,
+    "subjects": ["Biology", "English", "History"],
+    "feeStatus": "UNPAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c3e"
+  },
+  {
+    "name": "Michael Davis",
+    "phno": 5551234567,
+    "age": 17,
+    "subjects": ["Computer Science", "Mathematics", "Physics"],
+    "feeStatus": "PAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c3f"
+  },
+  {
+    "name": "Sarah Wilson",
+    "phno": 7778889999,
+    "age": 18,
+    "subjects": ["Literature", "History", "Philosophy"],
+    "feeStatus": "PAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c40"
+  },
+  {
+    "name": "Alex Chen",
+    "phno": 1112223333,
+    "age": 15,
+    "subjects": ["Mathematics", "Chemistry", "Biology"],
+    "feeStatus": "UNPAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c3d"
+  },
+  {
+    "name": "Lisa Rodriguez",
+    "phno": 4445556666,
+    "age": 16,
+    "subjects": ["Spanish", "English", "Art"],
+    "feeStatus": "PAID", 
+    "Class": "64a1b2c3d4e5f6789a1b2c3e"
+  },
+  {
+    "name": "David Thompson",
+    "phno": 2223334444,
+    "age": 17,
+    "subjects": ["Physics", "Mathematics", "Engineering"],
+    "feeStatus": "UNPAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c3f"
+  },
+  {
+    "name": "Maria Garcia",
+    "phno": 8889990000,
+    "age": 18,
+    "subjects": ["Psychology", "Sociology", "Political Science"],
+    "feeStatus": "PAID",
+    "Class": "64a1b2c3d4e5f6789a1b2c40"
+  }
+] 

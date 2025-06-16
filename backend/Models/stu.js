@@ -11,12 +11,16 @@ const stu_schema = Schema({
     type: [String],
     required: true,
   },
-  feeStatus: "paid" | "unpaid",
+  feeStatus: {
+    type: String,
+    enum: ["PAID", "UNPAID"],
+    default: "UNPAID"
+  },
   Class: {
     type: mongoose.Types.ObjectId,
     required: true,
   },
 });
 
-const Students = new mongoose.model(stu_schema, "Students"); //collection in mongoDB
+const Students = mongoose.model("Students", stu_schema); //collection in mongoDB
 export default Students;
