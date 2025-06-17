@@ -14,11 +14,11 @@ const stu_schema = Schema({
   feeStatus: {
     type: String,
     enum: ["PAID", "UNPAID"],
-    default: "UNPAID"
+    default: "UNPAID",
   },
   Class: {
     type: mongoose.Types.ObjectId,
-    required: true,
+    // required: true,
   },
 });
 
