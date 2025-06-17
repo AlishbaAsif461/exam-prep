@@ -2,10 +2,14 @@ import express from "express";
 import Students from "./Models/stu.js";
 import mongoose from "mongoose";
 import "dotenv/config";
+import cors from "cors";
 const app = express();
 
 app.use(express.json()); // Middleware to parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Middleware to parse URL-encoded bodies
+app.use(cors({
+  origin: "http://localhost:3000",
+}));
 
 async function connectToDB() {
   try {
@@ -16,8 +20,8 @@ async function connectToDB() {
   }
 }
 connectToDB();
-app.listen(3000, () => {
-  console.log("Server listening on port 3000");
+app.listen(process.env.PORT, () => {
+  console.log(`Server listening on port ${process.env.PORT}`);
 });
 app.get("/test", (req, res) => {
   res.send("Alishba is cootest");
