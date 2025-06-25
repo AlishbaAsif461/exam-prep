@@ -4,7 +4,7 @@ import Students from "./pages/students";
 import AddStu from "./pages/AddStu";
 
 function App() {
-  return <AddStu />;
+  return <Students />;
 }
 
 export default App;

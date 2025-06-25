@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const AddStu = ({ onAddStudent }) => {
+const AddStu = () => {
   const [name, setName] = useState("");
   const [phno, setPhno] = useState("");
   const [age, setAge] = useState("");
